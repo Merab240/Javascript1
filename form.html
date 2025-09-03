@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="reg">
+        <h3 id="h3">Registration Form</h3>
+    <form action="#" id="form">
+        <label for="fullname"> Full Name:</label><br>
+        <input type="text" id="fullname" name="fname" placeholder="Enter your full name"><br>
+        <span id="fullname_error"></span><br>
+
+        <label for="email">Email:</label><br>
+        <input type="text" id="email" name="email" placeholder="example@email.com"><br>
+        <span id="email_error"></span><br>
+
+        <label for="username"> User Name:</label><br>
+        <input type="text" id="username" name="user" placeholder="Enter Username"><br>
+        <span id="username_error"></span>
+        <br>
+
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password" placeholder="atleast 8 characters"><br>
+        <span id="password_error"></span>
+        <br><br>
+
+        <label for="cpassword"> Confirm Password:</label><br>
+        <input type="password" id="password2" name="cpswd" placeholder="re enter password"><br>
+        <span id="password2_error"></span>
+        <br><br>
+        <button type="submit">Register</button>
+    </form>
+    <p class="para">By clicking the register button, you agree to our <a href="#">Tearms and Conditions</a> policies</p>
+    </div>
+    <script src="form.js"></script>
+</body>
+</html>

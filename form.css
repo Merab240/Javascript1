@@ -1,0 +1,62 @@
+*{
+    margin: 0px;
+    padding: 0;
+    font-family: Arial;
+
+}
+body{
+    background-color: aquamarine;
+    
+    
+}
+.reg{
+    background-color: rgb(247, 247, 252);
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    width: 60dvh;
+    height: 85dvh;
+    
+ 
+}
+.reg form{
+    margin-left: 50px;
+}
+.reg h3 {
+    text-align: center;
+    font-size: 30px;
+    margin:20px 10px;
+
+}
+.reg label{
+    font-size: 15px;
+    margin-left: 15px;
+    margin-top: 20px;
+}
+.reg input{
+    font-size: 16px;
+    padding: 8px 10px;
+    width: 60%;
+    margin-top: 7px;
+    margin-left: 10px;
+    
+
+}
+.reg button {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 30px;
+    padding: 10px 15px;
+    width: 55%;
+    height: 10%;
+    background-color: rgb(168, 167, 167);
+    border-radius: 5px;
+}
+.reg button:hover{
+    color: rgb(238, 238, 243);
+}
+.para{
+    font-size: 13px;
+    margin: 10px 15px;
+    text-decoration: none;
+}
